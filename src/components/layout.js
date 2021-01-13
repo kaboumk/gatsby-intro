@@ -2,6 +2,8 @@ import React from 'react';
 import { Global, css } from '@emotion/react';
 import Helmet from 'react-helmet';
 import Header from './header';
+import Footer from './footer';
+
 import useSiteMetadata from '../hooks/use-sitemetadata';
 
 const Layout = ({ children }) => {
@@ -68,6 +70,7 @@ const Layout = ({ children }) => {
                 width: 550px;
             `}
         >{children}</main>
+        <Footer></Footer>
     </>
 );
 }
