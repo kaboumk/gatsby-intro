@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import usePosts from '../hooks/use-posts';
 import PostPreview from '../components/post-preview';
@@ -14,7 +13,6 @@ return (
 <h1>Hello!</h1>
 
 <div>Hello Saint Leu</div>
-<Link to="/about/">about &rarr;</Link>
 
 <h2>Read my blog</h2>
 {posts.map(post => (
