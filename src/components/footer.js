@@ -13,7 +13,7 @@ const Footer = () => (
             position: absolute;
             width: 100%;
             bottom: 0;
-            padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
+            padding: 0.5rem calc((100vw - 1000px - 0.5rem) / 2);
         `}
     >
         <p>Made with ❤️ &nbsp; by &nbsp;

@@ -27,7 +27,7 @@ const Header = () => (
             border-bottom: 1px solid #ddd;
             display: flex;
             justify-content: space-between;
-            padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
+            padding: 0.5rem calc((100vw - 1000px - 0.5rem) / 2);
         `}
     >
         <NavLink to="/" fontWeight="bold">FEM Workshop</NavLink>
@@ -36,6 +36,7 @@ const Header = () => (
             <NavLink to="/about/" activeClassName="current-page">About</NavLink>
             <NavLink to="/contact/" activeClassName="current-page">Contact me!</NavLink>
             <NavLink to="/travels/" activeClassName="current-page">Mes voyages</NavLink>
+            <NavLink to="/motorbikes/" activeClassName="current-page">Mes motos</NavLink>
         </nav>
         {}
     </header>
